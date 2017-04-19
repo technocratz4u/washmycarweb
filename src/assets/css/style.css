@@ -755,3 +755,7 @@ Responsive media queries
         text-align: center;
     }
 }
+
+.very-small-text {
+    font-size: 14px;
+}
