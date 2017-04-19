@@ -79,6 +79,14 @@ Navigation bar
     outline: none;
 }
 
+.btn-login{
+	background-color: #cc0000;
+	border-radius: 25px;
+	color: #ffffff !important;
+	border: 1px solid #cc0000;
+    padding: 10px 15px;
+    margin: 6px;
+}
 .btn-trial a{
 	background-color: #cc0000;
 	border-radius: 25px;
@@ -210,8 +218,11 @@ Banner
 }
 .login-box-msg, .register-box-msg {
     margin: 0px;
-    text-align: center;
     padding: 0px 20px 20px;
+    font-size: 14px;
+}
+.login-box-msg a:hover, a:focus{
+    color: #000;
 }
 .modal-sm {
     width: 400px;
