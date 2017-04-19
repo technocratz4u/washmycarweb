@@ -10,7 +10,7 @@
           <div class="intro-para text-center quote">
             <p class="big-text">We provide Doorstep car cleaning services in Kolkata</p>
             <ul>
-              <li class="btn-trial"><a class="big-text" href="#footer">Book Now</a></li>
+              <li class="btn-trial"><a class="big-text" [routerLink]="['/pricing']">Book Now</a></li>
             </ul>
           </div>
         </div>
@@ -20,117 +20,13 @@
 </div>
 <!--/ Banner-->
 <!--Feature-->
-<section id="feature" class="section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="header-section text-center">
-        <h2>What are We</h2>
-        <p>We provide Doorstep Car cleaning services by trained professionals anywhere in Kolkata.</p>
-        <p>Enjoy hassle-free convenience at your suitable time and place.
-        </p>
-        <hr class="bottom-line">
-      </div>
-      <div class="feature-info">
-        <div class="fea">
-          <div class="col-md-4">
-            <div class="heading pull-right">
-              <h4>Waterless eco-friendly</h4>
-              <p>We encourage waterless and eco-friendly cleaning services.</p>
-            </div>
-            <div class="fea-img pull-left">
-              <i class="fa fa-bitbucket"></i>
-            </div>
-          </div>
-        </div>
-        <div class="fea">
-          <div class="col-md-4">
-            <div class="heading pull-right">
-              <h4>Best-in-class Products</h4>
-              <p>We use best-in-class cleaning products.</p>
-            </div>
-            <div class="fea-img pull-left">
-              <i class="fa fa-superpowers"></i>
-            </div>
-          </div>
-        </div>
-        <div class="fea">
-          <div class="col-md-4">
-            <div class="heading pull-right">
-              <h4>Trained Professionals</h4>
-              <p>Our professionals are trained and will take best care of your car.</p>
-            </div>
-            <div class="fea-img pull-left">
-              <i class="fa fa-user-o"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<app-services></app-services>
 <!--/ feature-->
 
-<!--work-shop-->
-<section id="work-shop" class="section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="header-section text-center">
-        <h2>Car Wash Packages</h2>
-        <p>We offer the following wash Packages. Choose that fits your need.</p>
-        <hr class="bottom-line">
-      </div>
-      <div class="col-md-4 col-xs-12">
-        <div class="service-box text-center">
-          <div class="icon-box">
-            <h4 class="ser-text">Hachback Wash Package</h4>
-          </div>
-          <h3 class="highlight"><i class="fa fa-inr fa-lg"></i>150</h3>
-          <hr>
-          <div class="icon-text">
-            <p><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i> 20 min</p>
-            <p>Exterior Wash + Interior Dusting</p>
-            <p> + Glass Cleaning + Wheel Shine</p>
-            <hr>
-            <p class="btn-trial"><a class="small-text" href="#footer">Book Now</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12">
-        <div class="service-box text-center">
-          <div class="icon-box">
-            <h4 class="ser-text">Sedan Wash Package</h4>
-          </div>
-          <h3 class="highlight"><i class="fa fa-inr fa-lg"></i>170</h3>
-          <hr>
-          <div class="icon-text">
-            <p><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i> 20 min</p>
-            <p>Exterior Wash + Interior Dusting</p>
-            <p> + Glass Cleaning + Wheel Shine</p>
-            <hr>
-            <p class="btn-trial"><a class="small-text" href="#footer">Book Now</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12">
-        <div class="service-box text-center">
-          <div class="icon-box">
-            <h4 class="ser-text">MUV/SUV Wash Package</h4>
-          </div>
-          <h3 class="highlight"><i class="fa fa-inr fa-lg"></i>200</h3>
-          <hr>
-          <div class="icon-text">
-            <p><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i> 20 min</p>
-            <p>Exterior Wash + Interior Dusting</p>
-            <p> + Glass Cleaning + Wheel Shine</p>
-            <hr>
-            <p class="btn-trial"><a class="small-text" href="#footer">Book Now</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--/ work-shop-->
+<!--pricing-->
+<app-pricing></app-pricing>
+<!--/ pricing-->
+
 <!--Testimonial-->
 <section id="testimonial" class="section-padding">
   <div class="container">

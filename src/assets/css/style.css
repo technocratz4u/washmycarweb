@@ -374,8 +374,11 @@ Cta
 /***********************************
 Work Shop
 ************************************/
-#work-shop {
+#pricing {
     background-color: rgb(247, 247, 247);
+}
+#about-us {
+    color: #000;
 }
 .service-box{
     background: #fff;

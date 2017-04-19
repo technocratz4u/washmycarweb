@@ -12,6 +12,8 @@ import { MainbodyComponent } from './mainbody/mainbody.component';
 import { HomeComponent } from './home/home.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContactusComponent } from './contactus/contactus.component';
     MainbodyComponent,
     HomeComponent,
     AboutusComponent,
-    ContactusComponent
+    ContactusComponent,
+    PricingComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
